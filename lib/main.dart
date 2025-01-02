@@ -21,6 +21,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       builder: DevicePreview.appBuilder,
       locale: DevicePreview.locale(context),
       home: Home(),
