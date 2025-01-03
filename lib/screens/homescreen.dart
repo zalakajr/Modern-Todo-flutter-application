@@ -24,6 +24,12 @@ final List<CategoryTask> categories = [
         iconbgColor: Colors.pink,
         title: 'Organize Desk',
         subtitle: 'Estimated Time',
+        estimatedTime: '40min'),
+    Task(
+        icon: Icons.desk,
+        iconbgColor: Colors.pink,
+        title: 'Organize Desk',
+        subtitle: 'Estimated Time',
         estimatedTime: '40min')
   ]),
   CategoryTask(categoryName: 'Personal', tasks: [
@@ -38,7 +44,13 @@ final List<CategoryTask> categories = [
         iconbgColor: Colors.brown,
         title: 'Read a book',
         subtitle: 'Estimated Time',
-        estimatedTime: '1hr')
+        estimatedTime: '1hr'),
+    Task(
+        icon: Icons.book,
+        iconbgColor: Colors.brown,
+        title: 'Read a book',
+        subtitle: 'Estimated Time',
+        estimatedTime: '1hr'),
   ]),
 ];
 
